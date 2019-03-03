@@ -1,0 +1,116 @@
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) { 
+    .imageSelectioWithBtn{
+        padding: 6.2em 0;
+    }
+
+    .handing-imagetxt{
+        font-size: 18px;
+    }
+    .textOnImages p {
+        width: 65%;
+        line-height: 1.3;
+    }
+    .btnonimg{
+        font-size: 10px;
+        padding: 8px 8px;
+    }
+    .imgAndpara{
+        flex-direction: column;
+    }
+    .menu-pics{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .testimonal-block{
+        padding: 1em;
+    }
+    .testimonalSlider{
+        width: 100%;
+    }
+    .clinet-review{
+        font-size: 13px;
+        word-spacing: .2px;
+        letter-spacing: 0;
+    }
+    .section-heading-and-desrp {
+        margin: 3em 0;
+    }
+    .section-heading-and-desrp h2{
+        font-size: 15px;
+        letter-spacing: 1.5px;
+    }
+    .btnforsubmit{
+        padding: 9px 13px;
+        margin: 1.5em 0 auto;
+        width: 120px;
+    }
+
+    .fb, .ig, .tw, .gp {
+        display: none;
+    }
+    .social-iconsAnd-links > li {
+        flex: 0 0 32px;
+        text-transform: uppercase;
+        font-size: 17px;
+    }
+    .formforcontact {
+      flex: 0 0 70%;
+    }
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+    .imageSelectioWithBtn{
+        padding: 9.2em 0;
+    }
+    .handing-imagetxt {
+        font-size: 2em;
+    }
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {  
+    .navbar-menu{
+        display: none;
+    }
+    .navbar-icon{
+        display: block;
+    }
+    .dropdown-menu {
+        position: absolute;
+        display: flex;
+        right: 0px;
+        top: 0;
+        z-index: 1;
+        background-color: #000;
+        box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.75);
+        width: 50%;
+        justify-content: center;
+    }
+    #dropdownMenu ul {
+      display: block;
+  }
+  #dropdownMenu ul .nav-item {
+      padding: 10px;
+  }
+
+  .closebtn {
+      display: flex;
+      background: url(../images/close.png) no-repeat;
+      background-size: auto;
+      background-clip: border-box;
+      background-size: contain;
+      width: 30px;
+      height: 30px;
+      margin: 14px 0;
+      padding: 5px 5px;
+      cursor: pointer;
+      border: solid 1px white;
+      background-clip: content-box;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {  }
