@@ -243,16 +243,6 @@ for (var i = 0; i < navAnchor.length; i++) {
     this.className += " active";
   });
 } 
-$(document).mouseup(function(e) 
-{
-    var container = $("#dropdownMenu")
-    if (!container.is(e.target) && container.has(e.target).length === 0)
-    {
-    	if (screen.width <= 968) {
-        container.hide();
-    }
-    }       
-});
 </script>
 </body>
 </html>
